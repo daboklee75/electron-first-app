@@ -33,5 +33,8 @@ export class LoginForm {
         form.appendChild(input);
         form.appendChild(button);
         this.container.appendChild(form);
+
+        // Auto focus
+        setTimeout(() => input.focus(), 0);
     }
 }
